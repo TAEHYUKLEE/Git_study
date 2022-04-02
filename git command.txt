@@ -1,0 +1,41 @@
+git hub 명령어
+
+https://github.com/thlee991/test.git
+
+0. git update-git-for-windows
+git update
+
+1. git remote set-url origin {remote git 주소 복사} - origin repository setting
+
+2. git config user.email 현재 내 git의 사용자 이름
+
+3. git config user.email 현재 내 git의 이메일 
+
+4. git config --global user.name "이름"
+현재 사용자 이름과 이메일을 바꿀수 있다
+user.name 바꾸고 싶은 이름
+
+5.git config --global user.email [e-mail 주소]
+
+denied가 뜨면 --> 제어판 계정 들어가서 git 편집 누르고
+이름과 비번 다시 쳐주면 된다. (error 403)
+
+6. git add document.txt 작업한 것을 추가
+
+7. git commit -m "Add Text filed [docment.txt]"
+commit을 함으로써 파일이 upload된 시점을 snap shot으로 찍음
+
+ex) git commit -m "Add Text File [document.txt]"
+
+8. git reset [stage에 올라간 파일명] 
+Working directory에서 stage에 올라갔을때 다시 내려오게 하고 싶을때
+
+9. git add [파일명]
+Working directory에서 stage에 올리고 싶을때
+*만약 모든 파일을 올리고 싶다면 파일명 부분에 .을 찍으면 된다.
+
+10.git rm --cached [파일명]
+원격 저장소에서 파일을 지우고싶을때
+
+11. git rm --cached -r [디렉토리명]
+원격 저장소에서 디렉토리를 지우고싶을때
